@@ -94,6 +94,7 @@ public class ArvoreBinaria {
             sucessor.setEsq(atual.getEsq());
             System.out.println("Nó com dois filhos removido.");
         }
+
         return true;
     }
 
