@@ -3,22 +3,20 @@ package src;
 public class Main {
     public static void main(String[] args) {
         ArvoreBinaria arvoreBinaria = new ArvoreBinaria();
-        arvoreBinaria.inserir(50);
-        arvoreBinaria.inserir(45);
-        arvoreBinaria.inserir(46);
-        arvoreBinaria.inserir(43);
-        arvoreBinaria.inserir(42);
-        arvoreBinaria.inserir(60);
-        arvoreBinaria.inserir(65);
-        arvoreBinaria.inserir(64);
-        arvoreBinaria.inserir(63);
+        arvoreBinaria.inserir(10);
+        arvoreBinaria.inserir(4);
+        arvoreBinaria.inserir(2);
+        arvoreBinaria.inserir(7);
+        arvoreBinaria.inserir(5);
+        arvoreBinaria.inserir(9);
+        arvoreBinaria.inserir(6);
+        arvoreBinaria.inserir(15);
+        arvoreBinaria.inserir(21);
 
-        arvoreBinaria.remover(60);
-        System.out.println("Pré-ordem: ");
+
+        //arvoreBinaria.remover();
+        System.out.println("Pre-ordem:" );
         arvoreBinaria.preOrdem(arvoreBinaria.getRaiz());
-        System.out.println("Em ordem: ");
-        arvoreBinaria.emOrdem(arvoreBinaria.getRaiz());
-        System.out.println("Pós ordem: ");
-        arvoreBinaria.posOrdem(arvoreBinaria.getRaiz());
+
     }
 }
